@@ -599,8 +599,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 479988410}
         m_TargetAssemblyTypeName: CalculadoraController, Assembly-CSharp
-        m_MethodName: BtnChacaracter
-        m_Mode: 5
+        m_MethodName: CleanAll
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1083,7 +1083,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 224}
+  m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &443452529
 MonoBehaviour:
@@ -1121,6 +1121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 479988411}
   - component: {fileID: 479988410}
+  - component: {fileID: 479988412}
   m_Layer: 0
   m_Name: CalculadoraController
   m_TagString: Untagged
@@ -1157,6 +1158,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &479988412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479988409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ce7ddfbc48951418e5111262c0473a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blackBackground: {r: 0.09019608, g: 0.09411765, b: 0.101960786, a: 1}
+  numberBlue: {r: 0.21176472, g: 0.63529414, b: 0.9215687, a: 1}
+  buttomBlak: {r: 0.18823531, g: 0.19215688, b: 0.21176472, a: 1}
+  whiteBackground: {r: 1, g: 1, b: 1, a: 1}
+  font: []
+  spriteButtons: {fileID: 0}
+  myCamera: {fileID: 0}
 --- !u!1 &488110952
 GameObject:
   m_ObjectHideFlags: 0
@@ -1327,7 +1347,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 150, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531818736
 MonoBehaviour:
@@ -1578,8 +1598,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.006361, y: 586.74}
-  m_SizeDelta: {x: 1080, y: 230.7636}
+  m_AnchoredPosition: {x: 0.0031872, y: 400}
+  m_SizeDelta: {x: 980, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &643643088
 GameObject:
@@ -2664,8 +2684,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0063477, y: -261.00006}
-  m_SizeDelta: {x: 1080, y: 1398}
+  m_AnchoredPosition: {x: 0.0031739, y: -360}
+  m_SizeDelta: {x: 1080, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1224263840
 MonoBehaviour:
@@ -3031,7 +3051,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 224}
+  m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1429682590
 MonoBehaviour:
@@ -3392,7 +3412,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 224}
+  m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1535566846
 MonoBehaviour:
@@ -3991,8 +4011,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0063524, y: 817.8552}
-  m_SizeDelta: {x: 1080, y: 231.4698}
+  m_AnchoredPosition: {x: 0.0032396, y: 600}
+  m_SizeDelta: {x: 980, y: 200}
   m_Pivot: {x: 0.50000006, y: 0.4999984}
 --- !u!222 &1708003063
 CanvasRenderer:
@@ -4503,7 +4523,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 224}
+  m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1815298045
 MonoBehaviour:
@@ -5078,7 +5098,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1080, y: 224}
+  m_SizeDelta: {x: 1080, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2003816386
 MonoBehaviour:
